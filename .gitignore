@@ -1,0 +1,73 @@
+# -----------------
+# Python
+# -----------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+*.log
+
+# Virtual env
+.venv/
+env/
+venv/
+
+# -----------------
+# VSCode / IDE
+# -----------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# -----------------
+# Maya
+# -----------------
+*.swatches/
+*.autosave/
+*.mayaSwatches/
+*.bak
+*.tmp
+*.melTemp
+*.xgen/
+workspace.mel
+
+# -----------------
+# Unreal Engine
+# -----------------
+# Build / Binaries
+[Bb]uild/
+[Bb]inaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+*.sln
+*.xcodeproj
+*.xcworkspace
+*.vs/
+
+# Unreal logs & autosaves
+*.log
+*.tlog
+*.vs/
+*.vscode/
+*.VC.db
+*.opendb
+
+# User-specific
+*.user
+*.userprefs
+
+# Crash / backup
+*.dmp
+*.backup
+*.tmp
+
+# -----------------
+# OS / Misc
+# -----------------
+.DS_Store
+Thumbs.db
+desktop.ini
